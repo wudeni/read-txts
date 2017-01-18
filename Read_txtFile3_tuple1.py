@@ -1,6 +1,3 @@
-#print ('Hello World!')
-#print ('This is my first repo.')
-
 txt = str(input('Enter a line:- '))
 
 words = txt.split()
