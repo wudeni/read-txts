@@ -37,5 +37,4 @@ words_only = list()
 len_only = list()
 for length, word in t[:10]:
 	words_only.append(word)
-print('the first ten most common words:-\n', words_only)
-
+print('the first ten most common words in the current file are:-\n', words_only)
