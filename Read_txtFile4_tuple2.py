@@ -9,8 +9,6 @@ except:
 	print('File cannot opened:' , fname)
 	exit()
 
-#txt = str(input('Enter a line:- '))
-
 t = list()
 
 for line in fhand:
@@ -30,10 +28,10 @@ print (t)
 print('\n')
 
 words_only = list()
-len_only = list()
+#len_only = list()
 for length, word in t:
 	words_only.append(word)
-	len_only.append(length)
+	#len_only.append(length)
 
 print('words:-\n', words_only)
-#print('length:- \n', len_only)
+#print('length of the words:-\n', len_only)
