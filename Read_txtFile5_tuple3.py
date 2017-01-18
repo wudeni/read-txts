@@ -38,3 +38,6 @@ len_only = list()
 for length, word in t[:10]:
 	words_only.append(word)
 print('the first ten most common words in the current file are:-\n', words_only)
+#OR
+for key,value in t[:10]:
+	print(key, value)
