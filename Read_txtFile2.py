@@ -46,9 +46,12 @@ for key in counting_words:
 	
 print('..........................................')
 print('looping and print key and values''''
-''''Words that repeat more than 4 times; \n')
+''''Words that repeat more than x times; \n')
+
+ x = int(input('Enter a integer value to filter:-'))
+	
 for key in counting_words:
-	if counting_words[key] > 3:
+	if counting_words[key] > x:
 		print(key, counting_words[key])
 print('sorting, looping and print key and values')
 
