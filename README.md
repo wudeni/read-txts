@@ -9,4 +9,5 @@
 * Counting all words
 * Counting distinct words
 * Sort alphabetically
-* Find the largest value and corresponding key* 
+* Find the largest value and corresponding key
+* Request words to search, count and print
